@@ -93,6 +93,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
+  body {
+  overflow-x: hidden;
+  }
+  
   .nav {
     padding: 0rem 1rem;
     height: 8rem;
