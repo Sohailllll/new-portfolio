@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img src="./images/sohailPortfolio.jpg" alt="">
+        </div>
+
+        <div class="btn">
+            <button id="downloadButton" alt="Download">
+                <i>g</i>
+                <i>e</i>
+                <i>t</i>
+                <i>&nbsp;</i>
+                <i>P</i>
+                <i>o</i>
+                <i>r</i>
+                <i>t</i>
+                <i>f</i>
+                <i>o</i>
+                <i>l</i>
+                <i>i</i>
+                <i>o</i>
+              </button>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function () {
+            // Change 'your-pdf-file.pdf' to the actual name of your PDF file
+            var file = './pdf/sohailProf.pdf'; 
+            var link = document.createElement('a');
+            link.href = file;
+            link.download = 'sohailProf.pdf';
+            link.click();
+        });
+    </script>
+
+</body>
+
+</html>
