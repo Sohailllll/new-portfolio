@@ -149,6 +149,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
+  body {
+  overflow-x: hidden;
+}
+  
   h1 {
     font-size: 3rem;
   }
@@ -231,6 +236,11 @@ h2 {
 }
 
 @media (max-width: 768px) {
+
+  body {
+  overflow-x: hidden;
+}
+  
   h2 {
     font-size: 34px;
     text-align: center;
@@ -489,6 +499,11 @@ h5 {
 }
 
 @media (max-width: 768px) {
+
+  body {
+  overflow-x: hidden;
+}
+  
   .hero5-img {
     height: 2rem;
   }
