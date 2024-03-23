@@ -451,7 +451,7 @@ span {
   
   .hero4-arrow-img {
     height: 2.4rem;
-    margin: 0rem 13rem;
+/*     margin: 0rem 13rem; */
     overflow-x : hidden;
   }
 }
