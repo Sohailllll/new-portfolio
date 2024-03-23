@@ -139,7 +139,8 @@ h1 {
 }
 
 .hero-img {
-  height: 35rem;
+  max-width : 100%;
+  height : auto;
 }
 
 h1 {
