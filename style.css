@@ -445,9 +445,14 @@ span {
     padding-bottom: 3rem;
   }
 
+  .hero4-arrow {
+    overflow-x : hidden;  
+  }
+  
   .hero4-arrow-img {
     height: 2.4rem;
     margin: 0rem 13rem;
+    overflow-x : hidden;
   }
 }
 
