@@ -159,9 +159,9 @@ h1 {
   }
 
   .hero-img {
-    height: 22rem;
+    height: auto;
     object-fit: cover;
-    width: 21rem;
+    width: 100%;
   }
 }
 
