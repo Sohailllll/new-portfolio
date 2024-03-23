@@ -401,8 +401,9 @@ span {
 }
 
 .hero4-arrow-img {
-  height: 3rem;
-  margin: 0rem 77rem;
+  height: auto; /* Allow image to adjust its height based on content */
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  margin: 0 auto;;
 }
 
 .hero4-img:hover {
@@ -450,9 +451,9 @@ span {
   }
   
   .hero4-arrow-img {
-    height: 2.4rem;
-/*     margin: 0rem 13rem; */
-    overflow-x : hidden;
+    height: 10vw; /* Resetting height for smaller screens */
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    margin: 0 auto;
   }
 }
 
